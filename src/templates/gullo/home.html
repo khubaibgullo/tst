@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block head_title %}Saas{% endblock head_title %}</title>
+</head>
+<body>
+    <h1> this is project file</h1>
+    <h1>{{ page_title }}</h1>
+    <p>Hello world </p>
+    {{ name }}
+    
+
+    {% include 'user.html' %}
+    
+    <p><p> page visits {{ page_visits }}</p></p>
+    <p>total visits {{ total_visits }}</p>
+    <p>percent {{ percent }}</p>
+</body>
+</html>

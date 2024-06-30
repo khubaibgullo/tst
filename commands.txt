@@ -1,0 +1,2 @@
+to activate virtaul env set execution remotesigned 
+>>> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
